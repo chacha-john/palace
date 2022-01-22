@@ -1,0 +1,21 @@
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.intro{
+    /* text-align: center; */
+}
+.column{
+    float: left;
+    /* display: flex; */
+    width: 50%;
+    flex: 50%;
+}
+.row{
+    display: flex;
+}
