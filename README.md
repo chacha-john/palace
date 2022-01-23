@@ -3,7 +3,7 @@ A website landing page for a restaurant that sells burgers. This site helps user
 Furthermore, the site allows one to subscribe to a mailing list where they can get updates in their email address.
 
 # How to access the site
-To use the site, visit the link through
+To use the site, visit the link through rikonnect.github.io/palace.
 
 # License
 This site uses a GNU license allows anyone to use the entire code or part of this code in their project provided their project will be open source.
