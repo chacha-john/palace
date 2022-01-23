@@ -8,11 +8,10 @@
     text-align: center;
 }
 .intro{
-    /* text-align: center; */
+    text-align: center;
 }
 .column{
     float: left;
-    /* display: flex; */
     width: 50%;
     flex: 50%;
 }
@@ -23,9 +22,9 @@
     background-color: #F6B400;
 }
 .advert{
-    padding: 5em;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     font-size: 2em;
 }
 .footer{
@@ -36,9 +35,9 @@
 ul{
     list-style-type: none;
 }
-img{
+/* img{
     max-width: 50%;
-}
+} */
 .smap{
     font-size: 1.5em;
     font-weight: 600;
@@ -58,7 +57,43 @@ img{
 #oderNow{
     width: 50%;
 }
-{
+/* .menu{
     border: solid;
     border-radius: 20;
+} */
+#bottom{
+    font-size: small;
+    justify-content: center;
+}
+.title{
+    font-family: 'Lobster';
+    font-size: 3em;
+}
+.images img{
+    width: 30%;
+    margin: 1.5em;
+    border-radius: 1.5em;
+    /* border-end-end-radius: 2em; */
+    padding-right: 0%;
+    float: right;
+}
+/* #bottom.column{
+    float: left;
+    width: 33.33%;
+} */
+.image img{
+    border-radius: 1pc;
+    border-top-left-radius: 1pc;
+    border-top-right-radius: 1pc;
+    width: 30%;
+    padding-left: 0%;
+    padding-top: 2em;
+}
+.advert h1{
+    padding-top: 3em;
+}.promotion{
+    display: flex;
+}
+#title{
+    color: #F6B400;
 }

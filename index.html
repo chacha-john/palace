@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
             <div class="row">
                 <div class="column">
                     <img src="Burger Palace/logo.png" alt="logo">
-                    Burger
+                    <p class="name">Bur<span id="title">ger</span></p>
                 </div>
                 <div class="column">
                     <a href="#home" target="_self">Home</a>
@@ -43,14 +44,14 @@
     </header>
     <main>
         <div class="offers">
-            <span>
+            <span class="menu">
                 <img src="" alt="quality burger icon">
                 <p class="title">Quality Burgers</p>
                 <div class="description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolores officia in fuga, eveniet facere quos commodi odit impedit vel.
                 </div>
             </span>
-            <span>
+            <span class="menu">
                 <img src="" alt="fast delivery icon">
                 <p class="title">Fast Delivery</p>
                 <div class="description">
@@ -67,7 +68,7 @@
         </div>
         <div class="menu">
             <div class="row">
-                <div class="column">
+                <div class="column left">
                     <img src="Burger Palace/SeekPng 1.png" alt="double burger">
                     <p><span class="title">DOUBLE BURGER</span></p>
                     <div class="purchase">
@@ -80,7 +81,7 @@
                     </div>
 
                 </div>
-                <div class="column">
+                <div class="column middle">
                     <img src="Burger Palace/SeekPng 2.png" alt="double burger">
                     <p><span class="title">DOUBLE BURGER</span></p>
                     <div class="purchase">
@@ -93,7 +94,7 @@
                     </div>
 
                 </div>
-                <div class="column">
+                <div class="column right">
                     <img src="Burger Palace/SeekPng 3.png" alt="double burger">
                     <p><span class="title">DOUBLE BURGER</span></p>
                     <div class="purchase">
@@ -108,7 +109,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="column">
+                <div class="column left">
                     <img src="Burger Palace/SeekPng 4.png" alt="double burger">
                     <p><span class="title">DOUBLE BURGER</span></p>
                     <div class="purchase">
@@ -121,7 +122,7 @@
                     </div>
 
                 </div>
-                <div class="column">
+                <div class="column middle">
                     <img src="Burger Palace/SeekPng 5.png" alt="double burger">
                     <p><span class="title">DOUBLE BURGER</span></p>
                     <div class="purchase">
@@ -134,7 +135,7 @@
                     </div>
 
                 </div>
-                <div class="column">
+                <div class="column right">
                     <img src="Burger Palace/SeekPng 6.png" alt="double burger">
                     <p><span class="title">DOUBLE BURGER</span></p>
                     <div class="purchase">
@@ -151,34 +152,34 @@
         </div>
         <div class="promotion">
             <div class="row">
-                <div class="column">
+                <div class="column left">
                     <h1><strong>The Double <br> Decker</strong></h1> <br><br>
                     <p>Taste the explosion in your mouth</p>
                     <div id="pages">
                         <!-- for swiping between promotional items -->
                     </div>
                 </div>
-                <div class="column">
+                <div class="column right">
                     <img src="doubledecker.jpg" alt="the double decker burger">
                 </div>
             </div>
         </div>
         <div class="advert">
             <div class="row">
-                <div class="column">
+                <div class="column left">
                     <h1>
                         Discover even more <br> with our mobile <br> apps
                     </h1>
                     <br>
-                    <span class="images">
-                        <a href="#" target="_self"><img src="Burger Palace/google-playstore.jpeg" alt="playstore image"></a>
-                        <a href="#" target="_self"><img src="Burger Palace/appstore.png" alt="appstore image"></a>
+                    <span class="image">
+                        <a href="https://play.google.com/store/apps/details?id=br.com.tapps.myburgershop" target="_self"><img src="Burger Palace/playstore.png" alt="playstore image"></a>
+                        <a href="https://play.google.com/store/apps/details?id=br.com.tapps.myburgershop" target="_self"><img src="Burger Palace/appstore.png" alt="appstore image"></a>
                     </span>
                 </div>
-                <div class="column">
+                <div class="column right">
                     <span class="images">
-                        <a href="#" target="_self"><img src="Burger Palace/mobile1.png" alt="app screenshot"></a>
-                        <a href="#" target="_self"><img src="Burger Palace/mobile2.png" alt="app screenshot"></a>
+                        <img src="Burger Palace/mobile1.png" alt="app screenshot">
+                        <img src="Burger Palace/mobile2.png" alt="app screenshot">
                     </span>
                 </div>
             </div>
@@ -186,13 +187,13 @@
     </main>
     <footer class="footer">
         <div class="row">
-            <div class="column">
+            <div class="column left">
                 <span>
                     <img src="Burger Palace/logo.png" alt="icon">
                     Burger
                 </span>
             </div>
-            <div class="column">
+            <div class="column middle">
                 <p class="smap">Sitemap</p>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -201,7 +202,7 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <div class="column">
+            <div class="column right">
                 <p class="smap">Subscribe to our newsletter</p>
                 <br>
                 <form action="post">
@@ -213,20 +214,20 @@
             </div>
         </div>
         <br>
-        <div class="row">
-            <div class="column">
+        <div class="row" id="bottom">
+            <div class="column left">
                 <p>Copyright 2021. All rights reserved.</p>
             </div>
-            <div class="column">
+            <div class="column middle">
                 <span>
-                    <a href="https://facebook.com/rikonnect" target="_blank"><img src="https://fontawesome.com/v5.15/icons/facebook?style=brands" alt="facebook icon"></a>
-                    <a href="https://youtube.com/channel/rikonnect"target="_blank"><img src="fontawesome.com/fonts/youtube" alt="youtube icon"></a>
-                    <a href="https://twitter.com/rikonnect" target="_blank"><img src="fontawesome.com/fonts/twitter" alt="twitter icon"></a>
-                    <a href="https://instagram.com/rikonnect" target="_blank"><img src="fontawesome.com/fonts/insta" alt="insta icon"></a>
-                    <a href="https://linkedin.com/in/rikonnect" target="_blank"><img src="fontawesome.com/fonts/linkedin" alt="linkedin icon"></a>
+                    <a href="https://facebook.com/rikonnect" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://youtube.com/channel/rikonnect"target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/rikonnect" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/rikonnect" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/rikonnect" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </span>
             </div>
-            <div class="column">
+            <div class="column right">
                 <p>
                     Designed by Chacha John
                 </p>
