@@ -4,7 +4,6 @@
 }
 .navbar{
     display: flex;
-    flex-direction: row;
     text-align: center;
 }
 .intro{
@@ -78,12 +77,12 @@ ul{
     /* font-family: 'Lobster'; */
     font-style: italic;
     font-weight: 700;
+    display: flex;
 }
 .images img{
     width: 30%;
     margin: 1.5em;
     border-radius: 1.5em;
-    /* border-end-end-radius: 2em; */
     padding-right: 0%;
     float: right;
 }
@@ -153,4 +152,11 @@ ul{
     padding: 3em;
     font-size: xx-large;
     padding-top: 8em;
+}
+.float{
+    float: left;
+    width: 100em
+}
+.logo{
+    float: left;
 }
