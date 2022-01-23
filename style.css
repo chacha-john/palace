@@ -57,15 +57,6 @@ header{
     font-size: 1.2em;
     text-align: left;
 }
-.shine #odernow{
-    width: 500%;
-    background-color: #F6B400;
-    font-size: 4em;
-}
-/* .menu{
-    border: solid;
-    border-radius: 20;
-} */
 #bottom{
     font-size: small;
     justify-content: center;
@@ -159,7 +150,8 @@ header{
 }
 .float{
     float: left;
-    width: 100em
+    width: 50em;
+    font-size: 2em;
 }
 .logo{
     float: left;
@@ -173,4 +165,26 @@ button{
     color: white;
     border-bottom-right-radius: 0%;
     height: 3em;
+}
+.float span{
+    padding: 1.5em;
+}
+.menu .column{
+    float: left;
+    width: 33.33%;
+}
+/* .offers .row{
+    display: flex;
+    flex-direction: left;
+    max-width: max-content;
+} */
+#delicious, #fast, #quality{
+    display: flex;
+    flex-direction: column;
+    border: solid purple 1px;
+    margin: 2em;
+    border-radius: 2em;
+    text-align: center;
+    padding: 1em;
+
 }
