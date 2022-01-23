@@ -54,8 +54,10 @@ ul{
     font-size: 1.2em;
     text-align: left;
 }
-#oderNow{
-    width: 50%;
+.shine #odernow{
+    width: 500%;
+    background-color: #F6B400;
+    font-size: 4em;
 }
 /* .menu{
     border: solid;
@@ -67,7 +69,7 @@ ul{
 }
 .title{
     /* font-family: 'Lobster'; */
-    font-size: 2em;
+    font-size: 1.5em;
     color: purple;
     font-weight: 600;
 }
@@ -146,4 +148,9 @@ ul{
 } */
 .description{
     text-align: justify;
+}
+.shine{
+    padding: 3em;
+    font-size: xx-large;
+    padding-top: 8em;
 }
