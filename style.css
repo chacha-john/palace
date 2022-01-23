@@ -44,10 +44,14 @@ ul{
 .promotion, .offers{
     background-color: #E1EBE6;
 }
-.navbar a{
+header{
+    height: 100%;
+    background: linear-gradient(100deg, white 50%, #F6B400 50%);
+}
+/* .navbar a{
     display: flex;
     flex-direction: column;
-}
+} */
 .background{
     padding: 4em;
     font-size: 1.2em;
