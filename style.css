@@ -66,12 +66,14 @@ ul{
     justify-content: center;
 }
 .title{
-    font-family: 'Lobstar';
-    font-size: 3em;
+    /* font-family: 'Lobster'; */
+    font-size: 2em;
+    color: purple;
+    font-weight: 600;
 }
 .name{
     font-size: 3em;
-    font-family: 'Lobster';
+    /* font-family: 'Lobster'; */
     font-style: italic;
     font-weight: 700;
 }
@@ -112,7 +114,36 @@ ul{
     width: 40%;
 }
 .decker{
-    padding: 4em;
-    font-size: 3em;
+    padding: 5em;
+    font-size: 2em;
     font-weight: 600;
+    padding-top: 10em;
+}
+.tag{
+    border: .2em outset;
+    border-radius: 2em;
+    margin: 1em;
+    padding: 2em;
+    font-size: 2em;
+    width: 20%;
+}
+.menu .name{
+    text-align: center;
+    font-style: unset;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: .5em;
+    text-decoration-color: #F6B400;
+}
+.icons{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+/* .tag img{
+    width: fit-content;
+    size: 50%;
+} */
+.description{
+    text-align: justify;
 }
