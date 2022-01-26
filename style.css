@@ -1,6 +1,5 @@
 * {
     font-family: 'Poppins';
-    box-sizing: initial;
 }
 .navbar{
     display: flex;
@@ -173,11 +172,11 @@ button{
     float: left;
     width: 33.33%;
 }
-/* .offers .row{
+.offers .row{
     display: flex;
-    flex-direction: left;
-    max-width: max-content;
-} */
+    /* flex-direction: left; */
+    box-sizing: border-box;
+}
 #delicious, #fast, #quality{
     display: flex;
     flex-direction: column;
@@ -187,4 +186,7 @@ button{
     text-align: center;
     padding: 1em;
 
+}
+body{
+    box-sizing: border-box;
 }

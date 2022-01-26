@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(100deg,white 50%,rgb(255, 189, 66) 50%);
+}
+.logo{
+    position: static;
+    float: left;
+}
+.name{
+    position: relative;
+    top: 10px;
+    font-size: 3em;
+    font-family: 'Lobster';
+
+}
+.column-1{
+    width: 50%;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    padding-top: 5px;
+
+    
+}
+.column-2{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    font-weight: 600;
+    width: 50%;
+}
+.column-3{
+    padding-left: 100px;
+    padding-top: 200px;
+    width: 50%;
+    font-size: large;
+}
+.column-4{
+    width: 50%;
+}
+.column{
+    width: 50%;
+}
+.image{
+    box-sizing: border-box;
+    width: 100%;
+}
