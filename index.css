@@ -159,3 +159,68 @@ header{
     padding-left: 100px;
     display: flex;
 }
+.advert{
+    padding: 200px;
+    background-color: #F6B400;
+    padding-left: 100px;
+    padding-top: 300px;
+    font-size: xx-large;
+}
+.left-2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.image-3>a>img{
+    width: 350px;
+    border-radius: 20px;
+}
+.image-2,.image-4{
+    margin: 50px;
+    border-radius: 50px;
+    box-shadow: 1px -4px 100px #F6B400;
+}
+.images-5{
+    width: 100%;
+    display: flex;
+}
+.footer{
+    background-color: azure;
+}
+ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left-3{
+    width: 25%;
+}
+.middle-3{
+    width: 30%;
+}
+.smap{
+    font-size: x-large;
+    font-weight: 500;
+}
+.bottom{
+    display: flex;
+    padding-bottom: 0%;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.icons{
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: center;
+}
+.left-4{
+    padding-left: 50px;
+}
+.right-4{
+    text-align: right;
+    padding-right: 50px;
+}
