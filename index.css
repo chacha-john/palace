@@ -16,6 +16,10 @@ header{
     font-family: 'Lobster';
 
 }
+.color{
+    font-family: 'Lobster';
+    color: #F6B400;
+}
 .column-1{
     width: 50%;
 
@@ -57,4 +61,30 @@ header{
     border-radius: 50px;
     border-bottom-right-radius: 0;
     color: white;
+    border: #F6B400;
+}
+
+.column-5{
+    border: purple solid 1px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+.column-6{
+    border: purple solid 1px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 38%;
+    text-align: center;
+}
+.column-7{
+    border: purple solid 1px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 28%;
+    text-align: center;
 }
