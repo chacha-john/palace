@@ -9,7 +9,7 @@ header{
     position: static;
     float: left;
 }
-.name{
+.name, .name-1{
     position: relative;
     top: 10px;
     font-size: 3em;
@@ -92,5 +92,22 @@ header{
 .title{
     color: maroon;
     font-size: xx-large;
+    font-weight: 600;
+}
+.name-1{
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.underline{
+    width: 8em;
+    height: 1em;
+    background-color: #F6B400;
+    border: #F6B400;
+}
+#color{
+    font-family: 'Poppins';
     font-weight: 600;
 }
