@@ -147,3 +147,15 @@ header{
 .decker p{
     font-size: x-large;
 }
+.absolute{
+    position: relative;
+    width: 50%;
+    display: flex;
+}
+.relative{
+    position: relative;
+    width: 50%;
+    right: 500px;
+    padding-left: 100px;
+    display: flex;
+}
