@@ -69,12 +69,13 @@ header{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    width: 30%;
+    width: 28%;
     text-align: center;
 }
 .column-6{
     border: purple solid 1px;
     margin: 20px;
+    margin-left: 40px;
     padding: 20px;
     border-radius: 10px;
     width: 38%;
@@ -83,8 +84,13 @@ header{
 .column-7{
     border: purple solid 1px;
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
-    width: 28%;
+    width: 25%;
     text-align: center;
+}
+.title{
+    color: maroon;
+    font-size: xx-large;
+    font-weight: 600;
 }
