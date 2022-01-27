@@ -124,10 +124,26 @@ header{
 }
 .tag:hover{
     box-shadow: 1px 4px 7px grey;
-
 }
 .offers{
     background-color: azure;
     padding-top: 300px;
     padding-bottom: 150px;
+}
+.promotion{
+    padding-top: 300px;
+    background-color: azure;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+.decker{
+    font-size: 3em;
+    font-family: 'Poppins';
+}
+#decker{
+    font-family: 'Poppins';
+}
+.decker p{
+    font-size: x-large;
 }
