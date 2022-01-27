@@ -201,7 +201,7 @@ ul{
 .middle-3{
     width: 30%;
 }
-.smap{
+.smap-1{
     font-size: x-large;
     font-weight: 500;
 }
@@ -223,4 +223,28 @@ ul{
 .right-4{
     text-align: right;
     padding-right: 50px;
+}
+.newsletter{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    padding-right: 100px;
+}
+#submit{
+    background-color: #F6B400;
+    border-radius: 1px;
+    width: 170px;
+    border: #F6B400;
+    color: white;
+    font-size: 20px;
+}
+#email{
+    border: 1px black solid;
+    border-right: 0;
+}
+.smap{
+    text-align: right;
+    padding-right: 220px;
+    font-size: x-large;
+    font-weight: 500;
 }
